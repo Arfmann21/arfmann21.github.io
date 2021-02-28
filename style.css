@@ -23,7 +23,7 @@ body {
         width: 100%;
         font-weight: 500;
         color: #454545;
-        font-size: large;
+        font-size: medium;
     }
 
     .mainTitle {
@@ -215,11 +215,4 @@ body {
 .titleDiv{
     color: #212121;
     font-size: large;
-}
-
-.subtitleDiv {
-    width: 50%;
-    font-weight: 500;
-    color: #454545;
-    font-size: medium;
 }
