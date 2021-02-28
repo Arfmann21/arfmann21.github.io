@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 468px) {
+
+    .grapheionLogo img {
+        width: 0%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        border-radius: 5%;
+    }
+
+    .subtitleDiv {
+        width: 100%;
+        font-weight: 500;
+        color: #454545;
+        font-size: medium;
+    }
+
+    .mainTitle {
+        display: block;
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    hr{
+        border-color: #3399FF;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 50px;
+     }
+
+     .myApplications {
+        font-size: small;
+        font-weight: 600;
+        color: #212121;
+        font-size: medium;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    .astropocketBanner {
+        width: 40%;
+        margin-left: 12%;
+        margin-top: 30px;
+        border-radius: 3%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    }
+
+    .goesApplicationsIcon {
+        float: right;
+        margin-right: 10%;
+        opacity: 0%;
+
+    }
+}
+
+@media only screen and (min-width: 469px) and (max-width: 768px) {
+    .grapheionLogo img {
+        width: 0%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        border-radius: 5%;
+        margin-left: 30%;
+        margin-top: 40%;
+    }
+    .subtitleDiv {
+        width: 100%;
+        font-weight: 500;
+        color: #454545;
+        font-size: medium;
+    }
+
+    .mainTitle {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 250px;
+    }
+
+       hr{
+        border-color: #3399FF;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 90px;
+     }
+
+     .myApplications {
+        font-size: small;
+        font-weight: 600;
+        color: #212121;
+        font-size: medium;
+        padding-left: 10%;
+        margin-top: 90px;
+    }
+
+    .astropocketBanner {
+        width: 30%;
+        margin-left: 12%;
+        margin-top: 5%;
+        border-radius: 3%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    }
+
+    .goesApplicationsIcon {
+        opacity: 0%;
+        float: right;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .grapheionLogo img {
+        width: 80%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+        border-radius: 5%;
+        margin-left: 30%;
+    }
+
+    .subtitleDiv {
+        width: 100%;
+        font-weight: 500;
+        color: #454545;
+        font-size: medium;
+    }
+
+    .mainTitle {
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow: column;
+        padding-top: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 5%;
+    }
+    
+    hr{
+        border-color: #3399FF;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+     }
+
+     hr{
+        border-color: #3399FF;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 90px;
+     }
+
+     .myApplications {
+        font-size: small;
+        font-weight: 600;
+        color: #212121;
+        font-size: medium;
+        padding-left: 10%;
+        margin-top: 90px;
+    }
+
+    .astropocketBanner {
+        width: 20%;
+        margin-left: 12%;
+        margin-top: 5%;
+        border-radius: 3%;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    }
+
+    .goesApplicationsIcon {
+        opacity: 0%;
+        float: right;
+        margin-right: 10%;
+    }
+
+}
+
+.appbar {
+    display: block;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    gap: 1rem;
+    grid-auto-flow: column;
+}
+
+.appbar img {
+    width: 4%;
+    border-radius: 5%;
+    max-width:100%;
+}
+
+.myApplicationsAppBar {
+    float: right;
+    padding-right: 2%;
+}
+
+.grapheionAppBar {
+    float: right;
+    padding-right: 2%;
+}
+
+.contactAppBar {
+    float: right;
+}
+
+
+.titleDiv{
+    color: #212121;
+    font-size: large;
+}
+
+.subtitleDiv {
+    width: 50%;
+    font-weight: 500;
+    color: #454545;
+    font-size: medium;
+}
